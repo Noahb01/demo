@@ -1,0 +1,62 @@
+import type { Listing } from "@/types/listing";
+
+/** Demo inventory when Sanity env is not configured (local preview / CI build). */
+export const demoListings: Listing[] = [
+  {
+    _id: "demo-1",
+    title: "Harbor North — XL covered slip",
+    slug: "harbor-north-xl-covered-slip",
+    shortDescription:
+      "Private indoor boat house with generous clearance for flybridge yachts. Direct access to main waterway.",
+    featured: true,
+    gallery: [],
+    lengthM: 24,
+    beamM: 6.2,
+    clearanceM: 8.5,
+    depthM: 3.4,
+    powerSupply: "three_phase",
+    locationLabel: "North Sea Marina",
+    address: "Marineweg 12, 1234 AB Amsterdam",
+    lat: 52.3792,
+    lng: 4.9003,
+    waterwayNote: "Approx. 400 m to open harbor channel",
+  },
+  {
+    _id: "demo-2",
+    title: "Riverside Premium Berth",
+    slug: "riverside-premium-berth",
+    shortDescription:
+      "Climate-stable enclosure with premium power. Ideal for long-term value retention and reduced hull maintenance.",
+    featured: true,
+    gallery: [],
+    lengthM: 18,
+    beamM: 5.0,
+    clearanceM: 7.2,
+    depthM: 2.8,
+    powerSupply: "32A",
+    locationLabel: "Rotterdam Waterstad",
+    address: "Kade 45, 3011 Rotterdam",
+    lat: 51.9225,
+    lng: 4.47917,
+    waterwayNote: "Connected to Nieuwe Maas navigation",
+  },
+  {
+    _id: "demo-3",
+    title: "Coastal Haven — compact garage",
+    slug: "coastal-haven-compact-garage",
+    shortDescription:
+      "Efficient footprint for sport cruisers. UV and weather protection with low ongoing upkeep.",
+    featured: false,
+    gallery: [],
+    lengthM: 14,
+    beamM: 4.2,
+    clearanceM: 5.5,
+    depthM: 2.2,
+    powerSupply: "16A",
+    locationLabel: "Zeeland Coast",
+    address: "Dijkweg 8, 4461 Goes",
+    lat: 51.505,
+    lng: 3.595,
+    waterwayNote: "Short hop to North Sea locks",
+  },
+];
